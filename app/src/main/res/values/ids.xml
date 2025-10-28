@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Seller Listings Fragment IDs -->
+    <item type="id" name="recyclerViewListings" />
+    <item type="id" name="tvEmptyState" />
+    <item type="id" name="progressBar" />
+    <item type="id" name="swipeRefreshLayout" />
+
+    <!-- Seller Profile Fragment IDs -->
+    <item type="id" name="tvPropertiesCount" />
+    <item type="id" name="tvInquiriesCount" />
+    <item type="id" name="btnEditProfile" />
+    <item type="id" name="btnContactSupport" />
+    <item type="id" name="btnLogout" />
+    <item type="id" name="tvMessage" />
+    <item type="id" name="textView" />
+    <item type="id" name="propertyTitle" />
+    <item type="id" name="propertyPrice"/>
+    <item type="id" name="propertyLocation"/>
+    <item type="id" name="propertyType"/>
+    <item type="id" name="propertyDetails"/>
+    <item type="id" name="propertyImage"/>
+    <item type="id" name="btnBuyNow"/>
+    <item type="id" name="btnFavorite"/>
+    <item type="id" name="favorites_text"/>
+    <item type="id" name="message_text"/>
+    <item name="tvName" type="id" />
+    <item name="tvEmail" type="id" />
+    <item name="tvTotalProperties" type="id" />
+    <item name="tvSoldProperties" type="id" />
+    <item name="tvPendingProperties" type="id" />
+    <item name="tvTotalViews" type="id" />
+    <item name="tvEarnings" type="id" />
+    <item name="tvResponseRate" type="id" />
+    <item name="tvAvgPrice" type="id" />
+
+
+    />
+</resources>

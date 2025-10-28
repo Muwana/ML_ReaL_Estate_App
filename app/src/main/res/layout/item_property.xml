@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Property Image -->
+        <ImageView
+            android:id="@+id/propertyImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_house_placeholder"
+            android:background="#F5F5F5" />
+
+        <!-- Property Details -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <!-- Title and Favorite -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/propertyTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Property Title"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333" />
+
+                <Button
+                    android:id="@+id/btnFavorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🤍"
+                    android:background="@android:color/transparent"
+                    android:textSize="20sp"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <!-- Price -->
+            <TextView
+                android:id="@+id/propertyPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$250,000"
+                android:textSize="20sp"
+                android:textColor="#2E7D32"
+                android:textStyle="bold"
+                android:paddingTop="4dp" />
+
+            <!-- Location -->
+            <TextView
+                android:id="@+id/propertyLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123 Main St, City"
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:drawablePadding="4dp"
+                android:paddingTop="2dp" />
+
+            <!-- Property Type -->
+            <TextView
+                android:id="@+id/propertyType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apartment"
+                android:textSize="12sp"
+                android:textColor="#999999"
+                android:paddingTop="2dp" />
+
+            <!-- Details -->
+            <TextView
+                android:id="@+id/propertyDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 beds • 2 baths • 1200 sqft"
+                android:textSize="12sp"
+                android:textColor="#666666"
+                android:paddingTop="4dp" />
+
+            <!-- Buy Now Button -->
+            <Button
+                android:id="@+id/btnBuyNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="🛒 Buy Now"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:paddingVertical="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

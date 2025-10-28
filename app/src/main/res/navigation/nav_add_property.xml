@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Existing items -->
+    <group android:id="@+id/nav_main">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_add_property"
+            android:icon="@drawable/ic_add_property"
+            android:title="Add New Property" />
+
+        <item
+            android:id="@+id/nav_ml_website"
+            android:icon="@drawable/ic_website"
+            android:title="ML Real Estate Website" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+    <!-- Logout at bottom -->
+    <group android:id="@+id/nav_bottom">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

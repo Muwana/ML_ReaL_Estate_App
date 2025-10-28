@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2c3e50</color>
+    <color name="primary_dark">#1a252f</color>
+    <color name="primary_light">#34495e</color>
+    <color name="secondary">#e74c3c</color>
+    <color name="accent">#3498db</color>
+    <color name="light">#ecf0f1</color>
+    <color name="dark">#2c3e50</color>
+    <color name="gray">#95a5a6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#2c3e50</color>
+    <color name="text_secondary">#7f8c8d</color>
+    <color name="background">#f8f9fa</color>
+    <color name="card_background">#FFFFFF</color> <!-- Add this -->
+    <color name="success">#27ae60</color>
+    <color name="warning">#f39c12</color>
+</resources>
